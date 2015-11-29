@@ -11,5 +11,9 @@ router.post('/', function(req,res,next){
 	res.send('search elastic');
 })
 
+router.post('/add', function(req,res,next){
+	res.send('added to index')
+})
+
 
 module.exports = router;
